@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark</title>
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\JS\Dark\Dark.css" />
+  </head>
+  <body>
+    <h1 class="seven">Dark</h1>
+    <h2 class="Seven">Academy</h2>
+
+    <ul class="flexbox">
+      <li><a href="#">Home</a></li>
+      <li>Courses</li>
+      <li>Activities</li>
+      <li>Admission</li>
+      <li><a href="#">Signup</a></li>
+    </ul>
+
+    <!-- 
+  <form class="dark_form">
+    <label>Insert your name:</label>
+    <input type="text" />
+    <label>age:</label>
+    <input min="5" max="30" type="number" />
+
+    <label> insert your gender:</label>
+    <label>male</label>
+    <input type="checkbox" />
+    <label>female</label>
+    <input type="checkbox" />
+
+    <select>
+      Subjects
+      <option>Physics</option>
+      <option>Maths</option>
+      <option>Chemistry</option>
+      <option>English</option>
+      <option>Biology</option>
+      <option>Pure Maths</option>
+      <option>Bangla</option>
+      <option>Psychology</option>
+      <option>Economics</option>
+      <option>Accounting</option>
+      <option>shahin</option>
+    </select>
+  </form>
+  -->
+
+    <!-- Card Container -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h2>Events</h2>
+          </div>
+          <div class="card-back">
+            <img src="path/to/image1.jpg" alt="Image 1" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h2>Labs</h2>
+          </div>
+          <div class="card-back">
+            <img src="path/to/image2.jpg" alt="Image 2" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h2>Extracurricular</h2>
+          </div>
+          <div class="card-back">
+            <img src="path/to/image3.jpg" alt="Image 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".card").forEach((card) => {
+        card.addEventListener("click", () => {
+          card.classList.toggle("is-flipped");
+        });
+      });
+    </script>
+  </body>
+</html>
