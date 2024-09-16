@@ -1,0 +1,169 @@
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+  font-size: 20px;
+  color: aliceblue;
+}
+li:hover {
+  color: darkkhaki;
+}
+
+h1.seven {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 0;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding-bottom: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+a:link {
+  /* How to portray the normal link */
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  /* What happens when we visit the link */
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  /* what happens to the link when we hover */
+  text-decoration: none;
+  color: rgb(164, 194, 29);
+}
+
+a:active {
+  /* what happens to the link when we are on the page */
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.flexbox {
+  position: sticky;
+  top: 50px;
+}
+
+/* Here is the stylesheet for the signup form */
+#welcome {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+#options {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* Button Styles */
+.button button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+  background-image: linear-gradient(to right, #fff, #333);
+  color: #333;
+}
+
+.button_1 {
+  border: none;
+  color: rgb(167, 212, 33);
+  padding: 15px 32px 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 10px;
+  /*
+  margin-right: 200px;
+  margin-left: 450px;
+  margin-top: 100px;
+  background-color: #111;
+  text-align: center;
+  
+  
+  */
+}
+
+.button_1:hover {
+  background-color: rgb(106, 180, 53);
+}
+
+.button_2 {
+  border: none;
+  color: rgb(167, 212, 33);
+  padding: 15px 32px 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 10px;
+  /*
+  margin-right: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: #111;
+  text-align: center;
+  
+
+  */
+}
+
+.button_2:hover {
+  background-color: rgb(106, 180, 53);
+}
+
+.button {
+  position: relative;
+  top: 50 px;
+  text-align: center;
+  word-spacing: 100px;
+}
+
+.signup_parents {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 100px;
+  border-color: aliceblue;
+  border-style: dotted;
+  border-width: 50%;
+}
